@@ -8,16 +8,26 @@
 	<string>shwanton.LaunchBar.action.ObsidianOmnisearch</string>
 	<key>CFBundleName</key>
 	<string>Obsidian Omnisearch</string>
-	<key>LBAbbreviation</key>
-	<string>OO</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBArgument</key>
+	<string>search query</string>
 	<key>LBDebugLogEnabled</key>
 	<true/>
 	<key>LBDescription</key>
 	<dict>
+		<key>LBArgument</key>
+		<string>search query</string>
 		<key>LBAuthor</key>
 		<string>Shawn Dempsey</string>
 		<key>LBEmail</key>
 		<string>shwanton@gmail.com</string>
+		<key>LBRequirements</key>
+		<string>Obsidian + Omnisearch 3P Plugin</string>
+		<key>LBResult</key>
+		<string>Obsidian note links</string>
+		<key>LBSummary</key>
+		<string>Fetch search results from Obsidian Omnisearch HTTP Server API</string>
 		<key>LBTwitter</key>
 		<string>@shwanton</string>
 		<key>LBWebsiteURL</key>
@@ -25,6 +35,10 @@
 	</dict>
 	<key>LBRequiredApplication</key>
 	<string>md.obsidian</string>
+	<key>LBRequirements</key>
+	<string>Obsidian + Omnisearch 3P Plugin</string>
+	<key>LBResult</key>
+	<string>Obsidian note links</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
