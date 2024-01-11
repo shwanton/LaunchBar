@@ -1,0 +1,2 @@
+# LaunchBar
+LaunchBar Actions
